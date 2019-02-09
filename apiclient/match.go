@@ -9,13 +9,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/yuhanfang/riot/constants/champion"
-	"github.com/yuhanfang/riot/constants/event"
-	"github.com/yuhanfang/riot/constants/lane"
-	"github.com/yuhanfang/riot/constants/queue"
-	"github.com/yuhanfang/riot/constants/region"
-	"github.com/yuhanfang/riot/constants/season"
-	"github.com/yuhanfang/riot/types"
+	"github.com/cnguy/riot/constants/champion"
+	"github.com/cnguy/riot/constants/event"
+	"github.com/cnguy/riot/constants/lane"
+	"github.com/cnguy/riot/constants/queue"
+	"github.com/cnguy/riot/constants/region"
+	"github.com/cnguy/riot/constants/season"
+	"github.com/cnguy/riot/types"
 )
 
 type Match struct {

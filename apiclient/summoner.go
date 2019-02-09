@@ -4,13 +4,13 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/yuhanfang/riot/constants/region"
+	"github.com/cnguy/riot/constants/region"
 )
 
 type Summoner struct {
 	ProfileIconID int    `datastore:",noindex"` // ID of the summoner icon associated with the summoner.
 	Name          string `datastore:",noindex"` // Summoner name.
-	PUUID		  string `datastore:",noinex"`  // PUUID is the player universally unique identifier.
+	PUUID         string `datastore:",noinex"`  // PUUID is the player universally unique identifier.
 	SummonerLevel int64  `datastore:",noindex"` // Summoner level associated with the summoner.
 	AccountID     string `datastore:",noindex"` // Encrypted account ID.
 	ID            string `datastore:",noindex"` // Encrypted summoner ID.
